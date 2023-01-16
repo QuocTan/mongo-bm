@@ -1,0 +1,1 @@
+./ghz --insecure --async --proto=/home/tannguyen/halome/test/mongodb-bm/src/proto/hero.proto --call=hero.HeroesService/FindOne -c 100 -n 10000 -t 5s -d '{"id":1}' 0.0.0.0:50052
